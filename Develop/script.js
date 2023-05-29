@@ -1,25 +1,28 @@
 // Assignment code here
-function generatePassword{
-  var passwordLength = parseInt(prompt("Enter the desired password length:")) ;
-  if (passwordLength) !== passwordLength < 8 !== passwordLength > 128);
-  alert("Password Length must be between 8 and 128")
-  return "";
-}
 
-var includeLowercase = confirm("Include Lowercase Letters?")
-var includeUppercase = confirm("Include Uppercase Letters?")
-var includeNumeric = confirm("Include numbers?")
-var includeSpecial = confirm("Include special characters?")
+
 
 var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numericChars = "0123456789";
 var specialChars = "!@#$%^&*()_-+=";
 
+var includeLowercase = confirm("Include Lowercase Letters?")
+var includeUppercase = confirm("Include Uppercase Letters?")
+var includeNumeric = confirm("Include numbers?")
+var includeSpecial = confirm("Include special characters?")
+
 if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial) {
   alert("Please select at least one character type.");
   return "";
 }
+
+function generatePassword () {
+  if (passwordLength < 8 || passwordLength > 128);
+  alert("Password Length must be between 8 and 128")
+  return "";
+}
+
 
 var passwordChars = "";
 
