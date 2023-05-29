@@ -8,3 +8,7 @@ How to use the logical AND operator: https://www.freecodecamp.org/news/java-oper
 
 
 Logical NOT (!): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT
+
+## Code used:
+
+Random password String: https://stackoverflow.com/questions/9719570/generate-random-password-string-with-requirements-in-javascript#:~:text=To%20generate%20a%20random%20word,random().
