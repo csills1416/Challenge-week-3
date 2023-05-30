@@ -33,9 +33,11 @@ function writePassword() {
     }
 }
 
+
+
 var passwordLength = prompt("How long do you want your password to be?");
 
-if (passwordLength < 8 || passwordLength > 128) {
+if (isNAN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
   alert("Invalid password: Password must be between 8 and 128 characters");
 
   passwordText.value = password;
