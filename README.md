@@ -1,6 +1,9 @@
 # Password Generator Starter Code
 
-A client wanted a random password generator to help with securing his account online. The site should give the user a series of prompts that will ask for a uppercase, lowercase, numeric, and special characters. When the user clicks "Generate Password" the password will generate randomly and, based off of the desired password length, between 8-128 characters.
+A client wanted a random password generator to help with securing his account online. The site should give the user a series of prompts that will ask for a uppercase, lowercase, numeric, and special characters. When the user clicks "Generate Password" the password will generate randomly.
+
+## URL
+https://csills1416.github.io/Random-Password-Generator/
 
 ## Sources
 
